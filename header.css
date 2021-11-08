@@ -1,0 +1,45 @@
+.main-navigation {
+    position: relative;
+    float: right;
+    width: auto;
+    display: block;
+		margin-left: auto;
+		font-family: 'Noto Sans', sans-serif;
+	font-size: 18px;
+}
+.main-navigation ul {
+    list-style: none;
+    margin: 0;
+}
+.main-navigation li {
+    float: left;
+    position: relative;
+}
+.main-navigation a {
+    display: block;
+    padding: 1em;
+    text-decoration: none;
+    line-height: 1.3em;
+		color: var(--dark);
+}
+.main-navigation ul ul {
+    position: absolute;
+    right: 0px;
+    z-index: 99999;
+    display: none;
+    float: left;
+    padding: 0;
+		background-color: white;
+}
+.main-navigation ul ul ul {
+    left: 100%;
+}
+.main-navigation ul ul a {
+    width: 200px;
+}
+.main-navigation ul li:hover > ul {
+    display: block;
+}
+.sub-menu {
+margin-left: -10px !important;
+}
