@@ -3,9 +3,9 @@
     float: right;
     width: auto;
     display: block;
-		margin-left: auto;
-		font-family: 'Noto Sans', sans-serif;
-	font-size: 18px;
+    margin-left: auto;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 18px;
 }
 .main-navigation ul {
     list-style: none;
